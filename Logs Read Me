@@ -1,0 +1,7 @@
+The logs requirements weren't too obvious for me and as such, my implementation may be lacking. For instance, regarding the logs.txt 
+file, i'm not sure who the requester is, nor do i know what valid entries are allowed when searching by browser. Would the user
+simply search for Firefox, or the entire string within the " " ? For valid entries I allowed for a contains rather than an exact,
+but if this were the case it wouldn't seem to make much sence to even parse in the first place, just check the whole input. And as for 
+requester, I took an assumption that it would be the domain address within the second set of quotes.
+
+Ricky
